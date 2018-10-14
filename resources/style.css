@@ -1,0 +1,245 @@
+/* General Styling */
+
+body {
+  background-color: black;
+}
+
+.logo-top img {
+  width: 64px;
+  height: auto;
+  margin-top: 12px;
+  margin-left: 12px;
+  text-align: center;
+}
+
+.logo-top span {
+  color: white;
+  float: right;
+  margin-top: 24px;
+}
+.sticky-top {
+  position: relative;
+  z-index: 10;
+  background-color: black;
+}
+
+.social-top {
+  display: flex;
+  justify-content: center;
+  height: 32px;
+  position: relative;
+}
+
+.social-top a {
+  padding-left: 12px;
+  color: white;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.social-top a:hover {
+  color: lightblue;
+}
+
+.menu-top {
+  height: 48px;
+  margin-top: 12px;
+}
+
+.nav-item a {
+  color: white;
+  transition: all 0.3s ease-out;
+}
+
+.nav-item a:hover {
+  color: red;
+}
+
+#nav-menu-active {
+  color: grey;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  color: white;
+  text-align: center;
+  }
+
+.footer-bottom span a{
+  color: white;
+  }
+
+/* Hamburger Test*/
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle span.icon-bar {
+    transition: all 0.15s;
+}
+
+.navbar-toggle span:nth-child(2) {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggle span:nth-child(3) {
+    opacity: 0;
+}
+
+.navbar-toggle span:nth-child(4) {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed span:nth-child(2),
+.navbar-toggle.collapsed span:nth-child(4) {
+    transform: rotate(0);
+}
+
+.navbar-toggle.collapsed span:nth-child(3) {
+    opacity: 1;
+}
+
+/* Home Styling */
+
+.features h1 {
+  color: white;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.card-title {
+  text-align: center;
+}
+.fixed-bottom span{
+  color: white;
+}
+
+.mailing-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mailing-list h2 {
+  margin-top: 24px;
+  color: black;
+  text-align: center;
+  background-color: white;
+  border-radius: 24px;
+  padding: 12px;
+}
+
+.mailing-list h2:hover {
+  color: white;
+  background-color: red;
+  }
+
+  /* About Styling */
+
+.about-us h1{
+  text-align: center;
+  color: white;
+}
+
+.about-us p, .about-us li {
+  color: white;
+}
+
+  /* Hire Styling */
+
+  .hire h1, .hire p {
+    color: white;
+  }
+
+  .hire h1 {
+    text-align: center;
+  }
+
+  .hire a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .hire a:hover {
+    color: green;
+  }
+
+  .hire {
+    margin-bottom: 24px;
+  }
+
+  .hire img {
+    margin-bottom: 12px;
+  }
+
+  .hire-clients {
+    margin-bottom: 24px;
+  }
+
+  .download-forms {
+    margin-bottom: 24px;
+  }
+
+  .download-forms h1 {
+    color: white;
+    text-align: center;
+  }
+
+  .download-forms button {
+    margin-top: 12px;
+    margin-left: 12px;
+    transition: all 0.4s ease-out;
+  }
+
+  .download-forms button:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: green;
+  }
+
+  .download-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+/* Contact Styling */
+
+form legend {
+  text-align: center;
+  color: white;
+  padding-top: 12px;
+}
+
+form p, form p a {
+  text-align: center;
+  color: white;
+}
+
+.form-group {
+  color: white;
+}
+
+#success_message{
+  display: none;
+}
+
+/* Join Styling */
+
+.join h1{
+text-align: center;
+color: white;
+}
+
+.join p, .join li {
+color: white;
+}
